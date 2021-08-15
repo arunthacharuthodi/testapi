@@ -7,12 +7,12 @@ app.get('/', (req, res) => {
   res.end('Hello World!');
 });
 
-app.get("/list_movies", (req, res) => {
-    fs.readFile(__dirname + '/' + 'movies.json', 'utf8', (err, data) => {
+app.get("/testres", (req, res) => {
+    fs.readFile(__dirname + '/' + 'testres.json', 'utf8', (err, data) => {
         res.end(data);
     });
 });
 
-app.listen(port, () => {
+app.listen(env.process.PORT || 3000, () => {
     console.log(`app listening at http://localhost:${port}`)
   });
