@@ -1,1 +1,6 @@
-{"data":[],"success":false,"status":404,"message":"Invalid Route"}
+{"data":{
+    "collegeName":"government engineering College Wayanad"
+    "location":"thalappuzha",
+    "district":"wayanad",
+    "state":"kerala"
+},"success":false,"status":404,"message":"Invalid Route"}
